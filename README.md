@@ -11,4 +11,4 @@ Kidfund's [Git Hooks](http://githooks.com/ "Git Hooks")
 3. Run ```git clone https://github.com/Kidfund/githooks.git && cd githooks```
 4. Run ```cp -r git_hooks/* ~/.git_hooks && chmod -R 751 ~/.git_hooks/*```
 	
-	#1 is tracking creating an install script for step 4
+	[#1](https://github.com/Kidfund/githooks/issues/1 "#1") is tracking creating an install script for step 4
