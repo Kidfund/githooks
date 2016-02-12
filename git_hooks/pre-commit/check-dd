@@ -8,6 +8,7 @@
 
 if (count($argv) == 2 && $argv[1] == '--about') {
     print("Check for Laravel's dd()");
+    exit(0);
 }
 
 $files = shell_exec('git diff-index --name-only --cached --diff-filter=ACMR HEAD | grep "\.php$"');
