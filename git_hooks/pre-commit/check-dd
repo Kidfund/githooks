@@ -5,6 +5,11 @@
  * Credit: Martin Bean
  * https://gist.github.com/martinbean/0eb43b1ba647bca18064
  */
+
+if (count($argv) == 2 && $argv[1] == '--about') {
+    print("Check for Laravel's dd()");
+}
+
 $files = shell_exec('git diff-index --name-only --cached --diff-filter=ACMR HEAD | grep "\.php$"');
 $files = explode("\n", trim($files));
 
