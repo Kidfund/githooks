@@ -1,0 +1,4 @@
+#!/bin/sh
+git diff --cached --name-only | while read filename; do
+    /usr/local/bin/swiftlint autocorrect --path "$filename";
+done
